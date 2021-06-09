@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Digital gallery</title>
+        <script src="assets/js/jquery.js"></script>
+        <link href="assets/css/syle.css" rel="stylesheet" />
+
+        <style>
+            main {
+                display: grid;
+                background-color: wheat;
+            }
+            .pic {
+                padding: 50px;
+                margin-left: auto;
+                margin-right: auto;
+                align-self: center;
+                position: relative;
+
+            }
+            
+            
+            h1 {text-align: center;
+               color:gray;
+               background-color:pink;
+               position: sticky;
+               top: 0;
+               z-index: 3;
+               
+            }
+            h3{
+                color: gray;
+                text-align: center;
+                
+            }
+            img {
+                padding: 40px;
+                margin-left: 10px;
+                margin-right: 10px;
+                width: 200px;
+                height: 250px;
+            }
+
+            img:hover {
+                opacity: 0.5;
+
+            }
+            
+
+        </style>    
+    </head>
+    <body>
+        <main>
+            <h1 >Digital gallery</h1>
+            <h3>click on the images to make them larger.</h3>
+            <div class="pic">
+                <a href="assets/media/pic1.jpg" data-lightbox="pic1"><img src="assets/media/pic1.jpg" alt="pic1"></a>
+                <a href="assets/media/pic2.jpg" data-lightbox="pic2"><img src="assets/media/pic2.jpg" alt="pic2"></a>
+                <a href="assets/media/pic3.jpg" data-lightbox="pic3" ><img src="assets/media/pic3.jpg" alt="pic3"></a>
+                <a href="assets/media/pic4.jpg" data-lightbox="pic4"><img src="assets/media/pic4.jpg" alt="pic4"></a>
+            </div>
+            <div class="pic">
+                <a href="assets/media/pic5.jpg" data-lightbox="pic5"><img src="assets/media/pic5.jpg" alt="pic5"></a>
+                <a href="assets/media/pic6.jpg" data-lightbox="pic6"><img src="assets/media/pic6.jpg" alt="pic6"></a>
+                <a href="assets/media/pic7.jpg" data-lightbox="pic7"><img src="assets/media/pic7.jpg" alt="pic7"></a>
+                <a href="assets/media/pic8.jpg" data-lightbox="pic8"><img src="assets/media/pic8.jpg" alt="pic8"></a>
+
+            </div>
+        </main>
+        <script src="assets/plugin/lightbox.js"></script>
+    </body>
+</html>

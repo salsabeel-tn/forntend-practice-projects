@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+                text-decoration: none;
+            }
+            h1 {
+                color:white;
+                text-align:center
+                }
+
+            .button{
+                color:rgb(146, 35, 7);
+                background-color:linen;
+                border:2px solid rgb(100, 26, 4);
+
+                padding: 15px 32px;
+                padding-bottom: 10px;
+                margin-right: 400px;
+                margin-left: 700px;
+                text-align: center;
+
+               
+                font-size: 16px;
+
+                cursor: pointer;
+                transition: all .2s ease-in-out;
+                justify-self: center;
+            }
+
+            .button:hover{
+                opacity:0.9;
+                background-color: rgb(201, 130, 79);
+            }
+
+            input{
+                display:ruby-base;
+                padding: 5px;
+                width: 90%;
+                background-color: rgb(238, 210, 174);
+            }
+            
+            * {
+                box-sizing: content-box;
+            }
+            
+            .h1 {
+                height:200px;
+                width:100%;
+                background-image: url('https://www.newhartfordschools.org/cms/lib/NY01913833/Centricity/ModuleInstance/55/large/Bradley_9_19.jpg?rnd=0.0243749385813134');
+                
+            }
+            p.link { 
+                text-align: center;
+                padding-left: auto;
+                padding-top: auto;
+                padding-right: auto;
+
+            }
+                                        
+        </style>
+        <title>Bradly high school</title>
+    </head>
+    <body>
+        <div class='h1'>
+            <h1> School registration form </h1>
+        </div>
+        <div style="background-color: rgb(187, 132, 96); padding:10px;">
+            <form>
+            <label for='fname'><b>First Name:</b></label><br>                                    
+            <input type='text' id='fname' name='fname'><br><br>
+            <label for='lname'><b>Surname:</b></label><br>
+            <input type='text' id='lname' name='lname'><br><br>
+            <label for='bdate'><b>Birth Date:</b></label><br>
+            <input type='date' id='bdate' name='birthdate'><br><br>
+            <label for='gender'><b>Gender:</b></label><br>
+            <input list='gndrtypes'><br><br>
+            <datalist id='gndrtypes'>
+                <option value='Male'>
+                <option value='Female'>
+                <option value='other'>
+                </datalist>
+            <label for="email"><b>Email:</b></label><br>
+            <input type="email" id='email' name='email'><br><br>
+            <label for='phone'><b>phone number</b></label><br>
+            <input type="text" id='phone' name='phone no.' placeholder="+00 000 00 00 "><br><br>
+            <label for='home'><b>Home Adress:</b></label><br>
+            <input type="tel" id="home" name="home"><br><br>
+            <label for='passport'><b>passport photocopy:</b></label><br>
+            <input type="file" id="passport" name="passport"><br><br>
+            <label for='schoolcert'><b>Previos school certificates:</b></label><br>
+            <input type="file" name="certificate" id="schoolcert" multiple><br><br>
+            <label for='emrgcontactsnames'><b>Emergencey contacts (name):</b></label><br>
+            <input type="text" id="emrgcontactsnames" name='emrgnames'><br><br>
+            <label for="emrgnumber"><b>Emergencey contacts (phone number):</b></label><br>
+            <input type="tel" name="emergnumber" id="emrgnumber"><br>               
+            <p><b><br><br>     
+            NOTE:
+                 Make Sure that the information you entered is correct before 
+                 submitting the form.</b></p><br>
+                
+                
+            <button class="button" value="submit">submit</button>   <br><br> 
+            <p class="link"><b>Find out more about our school <a href="C:\Users\salsa\Desktop\project-1\aboutschool.html">HERE!</a></b></p>                                                                 
+            
+
+            </form>
+        </div>
+    </body>
+</html>
